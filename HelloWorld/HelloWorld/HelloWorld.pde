@@ -4,17 +4,17 @@ println(x);
 println("You said \"Hello!\" to me.");
 //
 String name = "Baltej Malhi";
-String phrase = "can count to";
-int highest_number = 0;
-long evenHigher = 0;
-float backwardsCounting = 0.1;
-double wayBack = 0.0;
+String sentence = "can count to";
+int lowest_number = 10;
+long biggestNumber = 20;
+float decimal = 0.1;
+double moreDecimals = 0.0;
 //
 // Concatenation: two ways
 //println();
 println("\nCompare the difference in the next lines of concatentation describing the coding symbol change and the return difference?");
-println("\n" + name + phrase + highest_number);
-println("\n", name, phrase, highest_number);
+println("\n" + name + sentence + lowest_number);
+println("\n", name, sentence, lowest_number);
 //
 // Pick a number and create formuale to return the value in two ways (into println or summative variable and then println)
 /*Use following operators (See Processing.org / Reference / Opertators)
@@ -22,12 +22,12 @@ Arithmetic Operators: +, -, *, /
 Assignment Operators: +=, -=, *=
 Modulus or Modulo: %
 */
-println("\nCounting with Formulae, exemplars using Baker's Dozen"); //Baker's Dozen,  Double Baker's Dozen,  Double Baker's Dozen & One More
-println("Starting Variable is", highest_number); //Returns 0
-evenHigher = highest_number+=13; //Returns Baker's Dozen,
-println("Assignment Example, as formula:", highest_number+=13); //Returns 2xBaker's Dozen
-println("Memory Variable is", evenHigher); //Returns Baker's Dozen as memory
-println("Arithmetic Example as formula:", highest_number+1); //Returns 1+2xBaker's Dozen
-println("Modulo or Modulus Example:", evenHigher % 14); //Returns Baker's Dozen, as a remainder
+println("\nCounting with Formulae, exemplars using Baker's Dozen"); 
+println("Starting Variable is", lowest_number); 
+biggestNumber = lowest_number+=20; 
+println("Assignment Example, as formula:", lowest_number+=20); 
+println("Memory Variable is", biggestNumber); 
+println("Arithmetic Example as formula:", lowest_number+11); 
+println("Modulo or Modulus Example:", biggestNumber % 19); 
 /*
 */
